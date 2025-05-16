@@ -3,8 +3,6 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - numpy
-  - pandas
   - pip
   - pip:
-      - some-pypi-package
+      - -r requirements.txt
