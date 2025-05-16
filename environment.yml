@@ -1,0 +1,10 @@
+name: trading-dashboard-advance-test-2
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - some-pypi-package
